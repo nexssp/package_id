@@ -4,3 +4,6 @@ input: null
 data: null
 files:
   - name: src/index.js
+commands:
+  - name: init
+    command: npm install
