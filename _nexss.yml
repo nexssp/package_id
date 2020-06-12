@@ -2,6 +2,10 @@ name: Id
 debug: true
 input: null
 data: null
+output:
+  - name: cuid
+    validate:
+      - type: required
 files:
   - name: src/index.js
 commands:
