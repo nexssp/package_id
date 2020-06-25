@@ -1,8 +1,4 @@
 name: Id
-output:
-  - name: cuid
-    validate:
-      - type: required
 files:
   - name: src/index.js
 commands:
