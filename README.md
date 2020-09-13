@@ -1,17 +1,10 @@
-# Id - Nexss PROGRAMMER 2.0
+# Id - Nexss PROGRAMMER 2.x
 
 Generates unique id
-
-## Credits
-
-Languages/Technologies used for this Nexss PROGRAMMER package:
-
-- NodeJS
-- <https://github.com/ericelliott/cuid>
 
 ## Example
 
 ```sh
-nexss Id
-nexss Id --fields=cuid
+nexss Id # will store new id in the nxsOut field
+nexss Id --nxsAs=myfield # will store the id in the myfield
 ```
