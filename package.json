@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Read me file template.",
   "main": "cuid.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nexssp/package_id.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
