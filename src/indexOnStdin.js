@@ -12,7 +12,7 @@ process.stdin.on("data", function (NexssStdin) {
   }
   // Modify data
   //NexssStdout.NodeJSOutput = `Hello from NodeJS! ${process.version}`;
-  NexssStdout.cuid = cuid();
+  NexssStdout[Math.random()] = cuid();
   // STDOUT
   process.stdout.write(JSON.stringify(NexssStdout));
 });
