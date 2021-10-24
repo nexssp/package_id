@@ -3,4 +3,4 @@ files:
   - name: src/index.js
 commands:
   - name: init
-    command: npm install
+    command: npm install --no-save
